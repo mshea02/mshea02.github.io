@@ -21,13 +21,13 @@ a:hover,
     color: #04ffd5;
 }
 
-
-.nav-link{
-    font-weight: 800;
-    font-size: 2em;
-    margin-top: -10px;
-    color: #0e0e0e;
+.nav-link,
+a{
+    font-weight: 600;
+    font-size: 1.7em;
+    color: #000000;
     font-family: 'Lora';
+    margin-top: -20px;
 }
 
 .row img{
