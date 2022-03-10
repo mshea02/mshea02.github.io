@@ -34,7 +34,28 @@ a:hover,
     font-family: 'Lora';
 }
 
+.row img{
+    padding: 3px;
+    max-width: fit-content;
+    height: 210px;
+}
+
+
+
+
+
+
+
+
+
+/*
 .img-fluid{
     margin: 25px;
 
 }
+
+.div img {
+    margin: 20px;
+    size: 25px;
+}
+*/
