@@ -31,9 +31,14 @@ a:hover,
 }
 
 .row img{
-    padding: 3px;
+    padding: 2px;
     max-width: fit-content;
-    height: 210px;
+    height: 240px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 2px;
 }
 
 p{
@@ -48,6 +53,32 @@ h2{
     font-style: italic;
 }
 
+.col-4 img{
+    padding: .1%;
+    border: 1.7px solid #ffffff;
+
+}
+
+.img-text{
+    color: #ffffff;
+    font-family: 'Lora';
+    text-align: center;
+    font-style:normal;
+}
+
+.img-text:hover{
+    color: #04ffd5;
+}
+
+
+
+
+.col-3,
+p{
+    text-align: center;
+    margin-left: -15px;
+    padding: 2%;
+}
 
 
 
