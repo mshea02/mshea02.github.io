@@ -1,0 +1,40 @@
+/*
+font-family: 'Lora';
+*/
+
+
+
+
+
+
+body {
+    background: #178585
+}
+
+h1 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 7em;
+    padding: 3%;
+    font-family: 'Lora';
+}
+
+
+a:hover,
+.nav-link:hover {
+    color: #04ffd5;
+}
+
+
+.nav-link{
+    font-weight: 800;
+    font-size: 2em;
+    margin-top: -10px;
+    color: #0e0e0e;
+    font-family: 'Lora';
+}
+
+.img-fluid{
+    margin: 25px;
+
+}
