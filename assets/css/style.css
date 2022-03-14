@@ -11,7 +11,7 @@ h1 {
     color: #ffffff;
     text-align: center;
     font-size: 5.5em;
-    padding: 3%;
+    padding: 1.5%;
     font-family: 'Lora';
 }
 
@@ -24,10 +24,10 @@ a:hover,
 .nav-link,
 a{
     font-weight: 600;
-    font-size: 1.6em;
+    font-size: 1.8em;
     color: #000000;
     font-family: 'Lora';
-    margin-top: -20px;
+    
 }
 
 .row img{
@@ -41,9 +41,11 @@ a{
     margin-top: 2px;
 }
 
+.main-text,
 p{
     color: #ffffff;
     font-family:'Lora';
+    padding: 2%
 }
 
 h2{
@@ -66,20 +68,63 @@ h2{
     font-style:normal;
 }
 
-.img-text:hover{
-    color: #04ffd5;
+
+.card{
+    background-color: #ffffff; 
+    border-color: #000000;  
+    border-width: .00000001em;
 }
 
 
+h5{
+    font-size: 20pt;
+    font-weight:500;
+    font-style: italic;
+    color: #000000;
+    font-family: 'Lora';
+}
 
+/*Article Title*/
 
-.col-3,
+.card-text,
 p{
-    text-align: center;
-    margin-left: -15px;
-    padding: 2%;
+    color: #000000;
+    font-family: 'Lora';
+    font-weight: 600;
+    font-size: 14pt;
 }
 
+/*By Matthew Shea*/
+
+.card-body{
+    margin: 2pt;
+    background-color: #ffffff;
+    border-color: #000000;
+}
+
+
+/*btn is button control*/
+.btn-primary{
+    background-color: #23a1a1;
+    border-color: #000000;
+    color: #ffffff;
+    font-family:'Lora';
+    font-weight: 500;
+}
+
+.btn-primary:hover{
+    color: #ffffff;
+    background-color: #a31b1b;
+    border-color: #000000;
+}
+
+.card-img-top{
+    border-color: #000000;
+}
+
+.row{
+    text-align: center;
+}
 
 
 
