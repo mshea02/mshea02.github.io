@@ -16,6 +16,10 @@ h1 {
     font-family: 'Lora';
 }
 
+hr{
+    color: #ffffff;
+}
+
 /*Nav Bar Control*/
 a:hover,
 .nav-link:hover {
@@ -153,7 +157,10 @@ img{
     color: #ffffff;
     font-family: 'Lora';
     font-weight: 400;
-    margin-right: 95pt;
+    margin-right: auto;
+    margin-top: 13pt;
+    margin-left: auto;
+    padding: 5%;
 }
 
 .about-nav-text
@@ -163,13 +170,20 @@ a{
     font-weight: 300;
     font-size: 15pt;
     border: #000000; border-width: 4pt;
+    float: right;
 }
 
 .about-img{
     float: left;
-    margin-left: 120pt;
+    margin-left: 50pt;
+    padding: 2%;
 }
 
+.about-hr{
+    color: #c0bfbf;
+    margin-left: 50pt;
+    margin-right: 50pt;
+}
 
 /*
 .img-fluid{
