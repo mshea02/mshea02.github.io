@@ -22,7 +22,7 @@ a:hover,
     color: #04ffd5;
 }
 
-.nav-link,
+.home-nav-text
 a{
     font-weight: 600;
     font-size: 1.8em;
@@ -144,7 +144,8 @@ img{
 /*ABOUT*/
 .about-head-text{
     font-style: normal;
-    font-size: 80pt;
+    font-size: 100pt;
+    padding: 1%;
 }
 
 /*Text next to pic*/
@@ -153,6 +154,15 @@ img{
     font-family: 'Lora';
     font-weight: 400;
     margin-right: 95pt;
+}
+
+.about-nav-text
+a{
+    color: #bfcff1;
+    font-family: 'Lora';
+    font-weight: 300;
+    font-size: 15pt;
+    border: #000000; border-width: 4pt;
 }
 
 .about-img{
