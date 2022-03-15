@@ -57,6 +57,7 @@ a{
     font-weight: 400;
 }
 
+
 /*Section Headers*/
 h2{
     text-align: center;
@@ -139,20 +140,20 @@ img{
 
 }
 
-/*ABOUT SECTION*/
+/*ABOUT SECTION (Streamline for all pages)*/
 .about-nav{
     font-size: 20pt;
     padding: 1%;
 }
 
-/*ABOUT*/
+/*ABOUT,WORK,CONTACT*/
 .about-head-text{
     font-style: normal;
     font-size: 99pt;
     padding: 1%;
 }
 
-/*Text next to pic*/
+/*Text next to pic (about)*/
 .about-top-text{
     color: #ffffff;
     font-family: 'Lora';
@@ -163,6 +164,7 @@ img{
     padding: 5%;
 }
 
+/*Streamline text for all pages*/
 .about-middle-text{
     color: #ffffff;
     font-family: 'Lora';
@@ -193,6 +195,7 @@ img{
     padding: -5%;
 }
 
+/*Top Nav Bar ABOUT WORK CONTACT*/
 .about-nav-text
 a{
     color: #bfcff1;
@@ -201,6 +204,18 @@ a{
     font-size: 15pt;
     border: #000000; border-width: 4pt;
     float: right;
+}
+
+/*"View More" Home page*/
+.work-nav-sec{
+    text-align: center;
+    color: #bfcff1;
+    font-family: 'Lora';
+    font-weight: 300;
+    font-size: 15pt;
+}
+.work-nav-sec:hover{
+    color: #ffffff;
 }
 
 
@@ -223,6 +238,14 @@ h3{
     color:#ffffff;
     font-style: italic;
     font-size: 40pt;
+}
+
+h4{
+    text-align: center;
+    font-family: 'Lora';
+    color:#ffffff;
+    font-style: italic;
+    font-size: 35pt;  
 }
 
 
