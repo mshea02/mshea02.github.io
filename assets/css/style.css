@@ -83,6 +83,7 @@ a{
     text-align: center;
     font-size: 15pt;
     padding-top: .8%;
+    text-align: center;
 }
 
 .contact-info,
@@ -97,9 +98,9 @@ a{
 
 .contact-info{
     background-color: #aec7c3;
-    margin-left: 190pt;
-    margin-right: 190pt;
-    border:1px solid #000000
+    margin-left: 80pt;
+    margin-right: 80pt;
+    border:1px solid #000000;
 }
 
 .message-center{
@@ -108,8 +109,8 @@ a{
     align-content: center;
     padding: .8%;
     background-color: #aec7c3;
-    margin-left: 190pt;
-    margin-right: 190pt;
+    margin-left: 80pt;
+    margin-right: 80pt;
     border:1px solid #000000
 }
 
