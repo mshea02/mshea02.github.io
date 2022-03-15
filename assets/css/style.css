@@ -1,5 +1,6 @@
 /*
 font-family: 'Lora';
+font-family: 'Roboto Slab';
 */
 
 
@@ -65,6 +66,53 @@ a{
     text-align: center;
     font-size: 9pt;
 }
+
+.contact-text{
+    color: #000000;
+    font-family:'Lora';
+    font-weight: 600;
+    text-align: center;
+    font-size: 15pt;
+    padding-top: .8%;
+}
+
+.contact-text-link{
+    color: #000000;
+    font-family:'Lora';
+    font-weight: 600;
+    text-align: center;
+    font-size: 15pt;
+    padding-top: .8%;
+}
+
+.contact-info,
+.contact-text{
+    text-align: center;
+}
+
+.contact-text-link:hover{
+    color: rgb(22, 105, 201);
+}
+
+
+.contact-info{
+    background-color: #aec7c3;
+    margin-left: 190pt;
+    margin-right: 190pt;
+    border:1px solid #000000
+}
+
+.message-center{
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    padding: .8%;
+    background-color: #aec7c3;
+    margin-left: 190pt;
+    margin-right: 190pt;
+    border:1px solid #000000
+}
+
 
 /*Section Headers*/
 h2{
