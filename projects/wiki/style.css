@@ -17,13 +17,13 @@ h3 {
 color: #0D268A; 
 font-family: Georgia, 'Times New Roman', Times, serif;
 font-style: italic;
-margin: 1.5pt;
+margin: 1.4pt;
 }
 
 p {
 color: #130852;
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-font-weight: 400;
+font-weight: 415;
 letter-spacing: .5px;
 margin-right: 15%;
 }
@@ -32,7 +32,7 @@ i {
 color: #653BBB;
 font-family: 'Times New Roman', Times, serif; 
 font-size: medium; 
-font-weight: 300;
+font-weight: 320;
 }
 
 b{
@@ -63,7 +63,7 @@ color: #5A5C0B;
 
 .box {
 color: #736DA7;
-background: #e9bec3 ;
+background: #f0c9cd ;
 padding: 2%;
 margin-right: 20%;
 }
