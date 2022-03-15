@@ -1,0 +1,352 @@
+/*
+font-family: 'Lora';
+font-family: 'Roboto Slab';
+*/
+
+
+body {
+    background: #178585
+}
+
+/* Matthew Shea Top*/
+h1 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 5.5em;
+    padding: 1.5%;
+    font-family: 'Lora';
+}
+
+hr{
+    color: #ffffff;
+}
+
+/*Nav Bar Control*/
+a:hover,
+.nav-link:hover {
+    color: #04ffd5;
+}
+
+.home-nav-text
+a{
+    font-weight: 600;
+    font-size: 1.8em;
+    color: #000000;
+    font-family: 'Lora';
+    
+}
+
+
+/*Main Profile Image*/
+.row img{
+    padding: 2px;
+    max-width: fit-content;
+    height: 240px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+   
+}
+
+
+/*Home Page Main Text*/
+.home-text{
+    color: #ffffff;
+    font-family:'Lora';
+    padding: 2%;
+    font-weight: 400;
+}
+
+.home-bottom-text{
+    color: #ffffff;
+    font-family:'Lora';
+    padding: 2%;
+    font-weight: 400;
+    text-align: center;
+    font-size: 9pt;
+}
+
+.contact-text{
+    color: #000000;
+    font-family:'Lora';
+    font-weight: 600;
+    text-align: center;
+    font-size: 15pt;
+    padding-top: .8%;
+}
+
+.contact-text-link{
+    color: #000000;
+    font-family:'Lora';
+    font-weight: 600;
+    text-align: center;
+    font-size: 15pt;
+    padding-top: .8%;
+    text-align: center;
+}
+
+.contact-info,
+.contact-text{
+    text-align: center;
+}
+
+.contact-text-link:hover{
+    color: rgb(22, 105, 201);
+}
+
+
+.contact-info{
+    background-color: #aec7c3;
+    margin-left: 80pt;
+    margin-right: 80pt;
+    border:1px solid #000000;
+}
+
+.message-center{
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    padding: .8%;
+    background-color: #aec7c3;
+    margin-left: 80pt;
+    margin-right: 80pt;
+    border:1px solid #000000
+}
+
+
+/*Section Headers*/
+h2{
+    text-align: center;
+    font-family: 'Lora';
+    color:#ffffff;
+    font-style: italic;
+}
+
+.card{
+    background-color: #ffffff; 
+    border-color: #000000;  
+    text-align: center;
+}
+
+
+h5{
+    font-size: 20pt;
+    font-weight:500;
+    font-style: italic;
+    color: #000000;
+    font-family: 'Lora';
+}
+
+/*Article Title*/
+
+.card-text,
+p{
+    color: #000000;
+    font-family: 'Lora';
+    font-weight: 600;
+    font-size: 14pt;
+}
+
+/*By Matthew Shea*/
+
+.card-body{
+    background-color: #ffffff;
+    border-color: #000000;
+}
+
+
+/*btn is button control home page*/
+.btn-primary{
+    background-color: #23a1a1;
+    border-color: #000000;
+    color: #ffffff;
+    font-family:'Lora';
+    font-weight: 500;
+}
+
+.btn-primary:hover{
+    color: #ffffff;
+    background-color: #a31b1b;
+    border-color: #000000;
+}
+
+.row,
+.col-sm-4{
+    text-align: center;
+}
+
+.col-sm-4{
+    padding: 1.2%;
+}
+
+.col-sm-4,
+img{
+    padding: 1%;
+    text-align: center;
+
+}
+
+
+/*Card Image*/
+.card,
+.card-img-top{
+    padding: .5%;
+    height: fit-content;
+    width: fit-content;
+
+}
+
+/*ABOUT SECTION (Streamline for all pages)*/
+.about-nav{
+    font-size: 20pt;
+    padding: 1%;
+}
+
+/*ABOUT,WORK*/
+.about-head-text{
+    font-style: normal;
+    font-size: 99pt;
+    padding: 1%;
+}
+
+/*CONTACT Header*/
+.contact-head-text{
+    font-style: normal;
+    font-size: 83pt;
+    padding: 1%;
+}
+
+/*Text next to pic (about)*/
+.about-top-text{
+    color: #ffffff;
+    font-family: 'Lora';
+    font-weight: 300;
+    margin-right: auto;
+    margin-top: 13pt;
+    margin-left: auto;
+    padding: 5%;
+}
+
+/*Streamline text for all pages*/
+.about-middle-text{
+    color: #ffffff;
+    font-family: 'Lora';
+    font-weight: 300;
+    margin-right: 55pt;
+    margin-top:13pt;
+    margin-left: 55pt;
+}
+
+.about-bottom-note{
+    color: #ffffff;
+    font-family: 'Lora';
+    font-weight: 300;
+    margin-right: auto;
+    margin-top:13pt;
+    margin-left: 55pt;
+    font-size: 10pt;
+}
+
+.about-click-text{
+    color: #ffffff;
+    font-family: 'Lora';
+    font-weight: 300;
+    margin-right: auto;
+    margin-top:13pt;
+    text-align: center;
+    font-size: 10pt;
+    padding: -5%;
+}
+
+/*Top Nav Bar ABOUT WORK CONTACT*/
+.about-nav-text
+a{
+    color: #bfcff1;
+    font-family: 'Lora';
+    font-weight: 300;
+    font-size: 15pt;
+    border: #000000; border-width: 4pt;
+    float: right;
+}
+
+/*"View More" Home page*/
+.work-nav-sec{
+    text-align: center;
+    color: #bfcff1;
+    font-family: 'Lora';
+    font-weight: 300;
+    font-size: 15pt;
+}
+.work-nav-sec:hover{
+    color: #ffffff;
+}
+
+
+.about-img{
+    float: left;
+    margin-left: 50pt;
+    padding: 2%;
+}
+
+.about-hr{
+    color: #c0bfbf;
+    margin-left: 50pt;
+    margin-right: 50pt;
+}
+
+/*About Section Header*/
+h3{
+    text-align: center;
+    font-family: 'Lora';
+    color:#ffffff;
+    font-style: italic;
+    font-size: 40pt;
+}
+
+h4{
+    text-align: center;
+    font-family: 'Lora';
+    color:#ffffff;
+    font-style: italic;
+    font-size: 35pt;  
+}
+
+
+b{
+    font-weight: 550;
+}
+
+.resume-img{
+    text-align: center;
+
+}
+
+
+/*TWITTER Home Page*/
+
+.twitter-timeline{
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+
+.twitter-image{
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+
+
+/*
+.img-fluid{
+    margin: 25px;
+
+}
+
+.div img {
+    margin: 20px;
+    size: 25px;
+}
+*/
