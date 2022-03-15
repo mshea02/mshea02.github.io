@@ -141,14 +141,14 @@ img{
 
 /*ABOUT SECTION*/
 .about-nav{
-    font-size: 10pt;
+    font-size: 20pt;
     padding: 1%;
 }
 
 /*ABOUT*/
 .about-head-text{
     font-style: normal;
-    font-size: 100pt;
+    font-size: 99pt;
     padding: 1%;
 }
 
@@ -156,11 +156,41 @@ img{
 .about-top-text{
     color: #ffffff;
     font-family: 'Lora';
-    font-weight: 400;
+    font-weight: 300;
     margin-right: auto;
     margin-top: 13pt;
     margin-left: auto;
     padding: 5%;
+}
+
+.about-middle-text{
+    color: #ffffff;
+    font-family: 'Lora';
+    font-weight: 300;
+    margin-right: 55pt;
+    margin-top:13pt;
+    margin-left: 55pt;
+}
+
+.about-bottom-note{
+    color: #ffffff;
+    font-family: 'Lora';
+    font-weight: 300;
+    margin-right: auto;
+    margin-top:13pt;
+    margin-left: 55pt;
+    font-size: 10pt;
+}
+
+.about-click-text{
+    color: #ffffff;
+    font-family: 'Lora';
+    font-weight: 300;
+    margin-right: auto;
+    margin-top:13pt;
+    text-align: center;
+    font-size: 10pt;
+    padding: -5%;
 }
 
 .about-nav-text
@@ -173,6 +203,7 @@ a{
     float: right;
 }
 
+
 .about-img{
     float: left;
     margin-left: 50pt;
@@ -184,6 +215,26 @@ a{
     margin-left: 50pt;
     margin-right: 50pt;
 }
+
+/*About Section Header*/
+h3{
+    text-align: center;
+    font-family: 'Lora';
+    color:#ffffff;
+    font-style: italic;
+    font-size: 40pt;
+}
+
+
+b{
+    font-weight: 550;
+}
+
+.resume-img{
+    text-align: center;
+
+}
+
 
 /*
 .img-fluid{
