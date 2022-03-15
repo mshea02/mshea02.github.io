@@ -115,15 +115,15 @@ p{
 }
 
 .row,
-.col-md-4{
+.col-sm-4{
     text-align: center;
 }
 
-.col-md-4{
-    padding: 1%;
+.col-sm-4{
+    padding: 1.2%;
 }
 
-.col-md-4,
+.col-sm-4,
 img{
     padding: 1%;
     text-align: center;
@@ -146,10 +146,17 @@ img{
     padding: 1%;
 }
 
-/*ABOUT,WORK,CONTACT*/
+/*ABOUT,WORK*/
 .about-head-text{
     font-style: normal;
     font-size: 99pt;
+    padding: 1%;
+}
+
+/*CONTACT Header*/
+.contact-head-text{
+    font-style: normal;
+    font-size: 83pt;
     padding: 1%;
 }
 
