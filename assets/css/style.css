@@ -143,6 +143,8 @@ h2{
     background-color: #ffffff; 
     border-color: #000000;  
     text-align: center;
+    margin-left: 10pt;
+    margin-right: 10pt;
 }
 
 
@@ -202,10 +204,6 @@ p{
 .row,
 .col-sm-4{
     text-align: center;
-}
-
-.col-sm-4{
-    
 }
 
 .col-sm-4,
