@@ -143,8 +143,8 @@ h2{
     background-color: #ffffff; 
     border-color: #000000;  
     text-align: center;
-    margin-left: 10pt;
-    margin-right: 10pt;
+    margin-left: 20pt;
+    margin-right: 20pt;
 }
 
 
@@ -213,6 +213,11 @@ img{
 
 }
 
+.slideshow{
+    align-content: center;
+    text-align: center;
+    align-items: center;
+}
 
 
 
