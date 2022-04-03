@@ -19,6 +19,17 @@ body{
     background-color: #080707;
 }
 
+a{
+    color: #f5f5f5;
+    text-decoration-color: #df4601;
+    font-weight: 600;
+}
+
+a:hover{
+    background-color: #f5f5f5;
+    color: #df4601;
+}
+
 @media (max-width: 850px){
     body{
         font-size: .89em;
@@ -60,10 +71,16 @@ h1{
     color: #f5f5f5;
     display: inline;
     padding: 1% 2%;
+    margin-top: 2%;
 }
 
-.video{
+video{
     width: 100%;
+    margin-top: 2%;
+}
+
+.titletext{
+    margin-top:5%
 }
 
 @media (max-width: 992px){
@@ -184,3 +201,14 @@ h3{
 }
 
 /* CHART */
+.chart{
+    background: #ffffff;
+    padding: 30%;
+}
+
+@media (max-width: 850px){
+    .chart{
+        padding: 2%;
+    }
+}
+
