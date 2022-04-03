@@ -204,7 +204,6 @@ h3{
 /* CHART */
 .chart{
     background: #ffffff;
-    padding: 30%;
 }
 
 @media (max-width: 850px){
