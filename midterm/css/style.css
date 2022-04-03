@@ -34,6 +34,7 @@ body{
 
 p{
     color: #f5f5f5;
+    text-align: center;
 }
 
 h1{
@@ -111,4 +112,16 @@ h1{
     .footer{
         width: 95%;
     }
+}
+
+.graphic{
+    padding: 5%;
+    background: #ffffff;
+}
+
+/* SECTION TWO*/
+
+.name{
+    text-transform: uppercase;
+    color: #df4601;
 }
