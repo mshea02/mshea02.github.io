@@ -1,0 +1,114 @@
+/*
+font-family: 'Barlow Condensed';
+font-family: 'Manrope';
+font-family: 'Archivo';
+*/
+
+/*
+Colors:
+#f5f5f5 = off-white
+#080707 = black
+#df4601 = orange
+#ffffff = pure white
+#d4c9c3 = beige
+*/
+
+body{
+    font-size: 18px;
+    font-family: 'Archivo';
+    background-color: #080707;
+}
+
+@media (max-width: 850px){
+    body{
+        font-size: .89em;
+    }
+}
+
+@media (max-width: 450px){
+    body{
+        font-size: .78em;
+    }
+}
+
+
+p{
+    color: #f5f5f5;
+}
+
+h1{
+    font-family: 'Manrope';
+    font-size: 3em;
+    font-weight: 800;
+}
+
+/*HEADER SECTION*/
+
+.header{
+    height: 100vh;
+    font-family: 'Barlow';
+    font-weight: 300;
+    font-size: .8em;
+    letter-spacing: 1.1px;
+}
+
+.subhead{
+    background-color: #df4601;
+    color: #f5f5f5;
+    display: inline;
+    padding: 1% 2%;
+}
+
+.video{
+    width: 100%;
+}
+
+@media (max-width: 992px){
+    .header{
+        text-align: center;
+    }
+
+    .col-md-8{
+        margin: 0 0 5%;
+    }
+}
+
+@media (max-width: 850px){
+    .header{
+        margin: 25% 0 0;
+    }
+
+}
+
+@media (max-width: 450px){
+    .header{
+        margin: 50% 0 0;
+    }
+
+}
+
+@media (min-width: 1000px){
+    .header{
+        margin: 15% 2% 0 0;
+    }
+
+}
+
+/* SECTION ONE */
+
+.sectionone{
+    width: 65%;
+    margin: 0 auto;
+    padding: 5% 0;
+}
+
+.intro{
+    letter-spacing: 1.2px;
+}
+
+@media (max-width: 450px){
+    .section,
+    .footer{
+        width: 95%;
+    }
+}
