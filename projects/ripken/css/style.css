@@ -121,6 +121,11 @@ h1{
 .graphic{
     padding: 5%;
     background: #ffffff;
+    margin: 0 2%;
+}
+
+.img{
+    margin: 0 2%;
 }
 
 
