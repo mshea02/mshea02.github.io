@@ -41,6 +41,7 @@ h1{
     font-family: 'Manrope';
     font-size: 3em;
     font-weight: 800;
+    color: #ffffff;
 }
 
 /*HEADER SECTION*/
@@ -95,13 +96,15 @@ h1{
 
 }
 
-/* SECTION ONE */
-
-.sectionone{
+.section{
     width: 65%;
     margin: 0 auto;
     padding: 5% 0;
 }
+
+/* SECTION ONE */
+
+
 
 .intro{
     letter-spacing: 1.2px;
@@ -119,9 +122,23 @@ h1{
     background: #ffffff;
 }
 
+
 /* SECTION TWO*/
 
 .name{
     text-transform: uppercase;
     color: #df4601;
+}
+
+.caption{
+    font-size: .8em;
+    color: #d4c9c3;
+    font-family: 'Barlow Condensed';
+}
+
+@media (max-width: 450px){
+    img,
+    .caption{
+        font-size: .9em;
+    }
 }
