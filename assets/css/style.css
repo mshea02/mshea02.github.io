@@ -68,39 +68,55 @@ a{
 }
 
 .contact-text{
-    color: #000000;
+    color: #ffffff;
     font-family:'Lora';
     font-weight: 600;
-    text-align: center;
     font-size: 15pt;
     padding-top: .8%;
 }
 
 .contact-text-link{
-    color: #000000;
+    color: #ffffff;
     font-family:'Lora';
     font-weight: 600;
-    text-align: center;
     font-size: 15pt;
-    padding-top: .8%;
-    text-align: center;
+    margin-left: 40pt;
 }
 
-.contact-info,
+
+/*contact page essentials*/
 .contact-text{
+    color: #ffffff;
+    font-family:'Lora';
+    font-weight: 400;
     text-align: center;
+    margin-left: 7%; margin-right: 7%;
+    padding: 1%;
 }
 
 .contact-text-link:hover{
     color: rgb(22, 105, 201);
 }
 
+.contact-top-text{
+    color: #ffffff;
+    font-family: 'Lora';
+    font-weight: 300;
+    margin-right: auto;
+    margin-top: 13pt;
+    margin-left: auto;
+    padding: 3%;
+    font-size: 13pt;
+}
 
-.contact-info{
-    background-color: #aec7c3;
-    margin-left: 80pt;
-    margin-right: 80pt;
-    border:1px solid #000000;
+.contact-img{
+    padding: 2px;
+    max-width: fit-content;
+    height: 240px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
 .message-center{
@@ -108,7 +124,7 @@ a{
     align-items: center;
     align-content: center;
     padding: .8%;
-    background-color: #aec7c3;
+    background-color: #e4dcdc;
     margin-left: 80pt;
     margin-right: 80pt;
     border:1px solid #000000
@@ -127,7 +143,12 @@ h2{
     background-color: #ffffff; 
     border-color: #000000;  
     text-align: center;
+    margin-left: 20pt;
+    margin-right: 20pt;
 }
+
+
+
 
 
 h5{
@@ -138,7 +159,7 @@ h5{
     font-family: 'Lora';
 }
 
-/*Article Title*/
+/*CARD:Article Title*/
 
 .card-text,
 p{
@@ -153,6 +174,15 @@ p{
 .card-body{
     background-color: #ffffff;
     border-color: #000000;
+}
+
+.card-body-work{
+    background-color: #ffffff;
+    border-color: #000000;
+    padding: 5%;
+    margin-left: auto;
+    margin-right:auto;
+    align-content: center;
 }
 
 
@@ -176,16 +206,19 @@ p{
     text-align: center;
 }
 
-.col-sm-4{
-    padding: 1.2%;
-}
-
 .col-sm-4,
 img{
     padding: 1%;
     text-align: center;
 
 }
+
+.slideshow{
+    align-content: center;
+    text-align: center;
+    align-items: center;
+}
+
 
 
 /*Card Image*/
@@ -213,7 +246,7 @@ img{
 /*CONTACT Header*/
 .contact-head-text{
     font-style: normal;
-    font-size: 83pt;
+    font-size: 72pt;
     padding: 1%;
 }
 
@@ -339,14 +372,4 @@ b{
 
 
 
-/*
-.img-fluid{
-    margin: 25px;
 
-}
-
-.div img {
-    margin: 20px;
-    size: 25px;
-}
-*/
