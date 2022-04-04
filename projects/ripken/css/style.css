@@ -134,12 +134,16 @@ video{
     }
 }
 
+.mainintrotext{
+    margin-top: 7.3%;
+}
+
 /* GRAPHIC */
 
 .graphic{
     padding: 5%;
     background: #ffffff;
-    margin: 0 2%;
+    
 }
 
 .img{
