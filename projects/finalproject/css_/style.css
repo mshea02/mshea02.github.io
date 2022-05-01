@@ -6,15 +6,15 @@ Colors:
 
 /*
 Fonts:
-
+font-family: 'Nunito Sans'
 
 
 
 */
 
 body{
-    font-size: 18px;
-    font-family: 'Archivo';
+    font-size: 17px;
+    font-family: 'Nunito Sans';
     background-color: #4b4747;
     padding: 0 7%;
 }
@@ -48,7 +48,7 @@ p,
 .maintext{
     color: #ffffff;
     margin: 0 1%;
-    font-weight: 100;
+    font-weight: 400;
 }
 
 h1{
@@ -56,6 +56,7 @@ h1{
     font-size: 3em;
     font-weight: 200;
     color: #ffffff;
+    margin: 0 1%
 }
 
 b{
@@ -68,7 +69,7 @@ b{
     color: #ffffff;
     display: inline;
     padding: 1% 2%;
-    margin-top: 2%;
+    margin: 0 1%;
 }
 
 
@@ -122,8 +123,6 @@ b{
 
 
 
-/* GRAPHIC */
-
 .graphic{
     padding: 5%;
     background: #ffffff;
@@ -135,16 +134,11 @@ b{
 }
 
 
-
-.name{
-    text-transform: uppercase;
-    color: #df4601;
-}
-
 .caption{
     font-size: .9em;
     color: #f5eded;
-    font-family: 'Barlow Condensed';
+    font-family: 'Nunito Sans';
+    font-weight: 200;
 }
 
 @media (max-width: 450px){
@@ -154,39 +148,3 @@ b{
     }
 }
 
-
-
-h2{
-    background: #f5f5f5;
-    color: #080707;
-    margin: 5% 0 5%;
-    text-align: center;
-    font-size: 1.5em;
-    letter-spacing: 1.3px;
-}
-
-h3{
-    font-size: 1.1em;
-}
-
-.blockquote,
-.quote,
-.cite{
-    font-family: 'Manrope';
-    text-align: center;
-    padding: 2%;
-    background: #df4601;
-    align-items: flex-end;
-    margin: 0 -3%;
-}
-
-
-.quote{
-    font-size: 1.2em;
-    font-weight: 500;
-}
-
-.cite{
-    font-style: italic;
-    font-size: .8em;
-}
