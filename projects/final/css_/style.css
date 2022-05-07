@@ -136,7 +136,6 @@ b{
 }
 
 
-
 .graphic{
     padding: 1.2%;
     background: #e9e1e1;
@@ -148,11 +147,10 @@ b{
 
 .photo{
     margin: 0 1%;
-    padding: 1.2%;
-}
-
-.img{
-    margin: 0 2%;
+    width: 96%;
+    max-width: 100%;
+    height: auto;
+    border: 5px solid #ffffff
 }
 
 
