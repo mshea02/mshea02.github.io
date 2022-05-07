@@ -141,6 +141,9 @@ b{
     padding: 1.2%;
     background: #e9e1e1;
     margin: 0 1%;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
 }
 
 .photo{
