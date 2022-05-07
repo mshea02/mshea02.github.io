@@ -370,6 +370,50 @@ b{
     text-align: center;
 }
 
+@media (max-width: 450px){
+    .section,
+    .footer{
+        width: 95%;
+    }
+}
 
+@media (max-width: 992px){
+    .header{
+        text-align: center;
+    }
+}
+
+@media (max-width: 850px){
+    .header{
+        margin: 25% 0 0;
+    }
+
+}
+
+@media (max-width: 450px){
+    .header{
+        margin: 50% 0 0;
+    }
+
+}
+
+@media (min-width: 1000px){
+    .header{
+        margin: 15% 2% 0 0;
+    }
+
+}
+
+@media (max-width: 850px){
+    body{
+        font-size: .89em;
+    }
+}
+
+@media (max-width: 450px){
+    body{
+        font-size: .78em;
+    }
+}
 
 

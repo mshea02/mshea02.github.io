@@ -47,10 +47,15 @@ a:hover{
 
 
 p,
-.maintext{
+.maintext,
+.copyright{
     color: #ffffff;
     margin: 0 1%;
     font-weight: 400;
+}
+
+.copyright{
+    text-align: center;
 }
 
 .maintexttwo{
@@ -138,21 +143,26 @@ b{
     margin: 0 1%;
 }
 
+.photo{
+    margin: 0 1%;
+    padding: 1.2%;
+}
+
 .img{
     margin: 0 2%;
 }
 
 
 .caption{
-    font-size: .9em;
+    font-size: .8em;
     color: #f5eded;
     font-family: 'Nunito Sans';
-    font-weight: 200;
+    font-weight: 300;
     margin: 0 1%
 }
 
+
 @media (max-width: 450px){
-    img,
     .caption{
         font-size: .9em;
     }
