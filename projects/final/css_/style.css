@@ -44,14 +44,38 @@ a:hover{
     }
 }
 
-
+.intro{
+    color:#ffffff;
+    font-weight: 600;
+    font-size: 1em;
+}
 
 p,
 .maintext,
-.copyright{
+.copyright,
+.maintexttwo{
     color: #ffffff;
     margin: 0 1%;
     font-weight: 400;
+    padding: 3%;
+}
+
+.maintext,
+.maintexttwo{
+    width: 75%;
+    margin: 0 auto;
+}
+
+h2{
+    font-size: 17px;
+    margin: 3% 0;
+    padding: .8%;
+}
+
+.headtext{
+    color: #ffffff;
+    font-weight: 400;
+
 }
 
 .copyright{
@@ -60,9 +84,13 @@ p,
 
 .maintexttwo{
     color: #ffffff;
-    margin: 0 1%;
     font-weight: 400;
     font-style: italic;
+}
+
+.copyright,
+.maintexttwo{
+    padding: 2%;
 }
 
 h1{
@@ -87,6 +115,11 @@ b{
     padding: 1.1%;
     font-weight: 900;
     margin: 0 1%;
+}
+
+.subhead,
+h1{
+    margin-top: 5%;
 }
 
 
@@ -123,7 +156,7 @@ b{
 }
 
 .section{
-    width: 65%;
+    width: 45%;
     margin: 0 auto;
     padding: 5% 0;
 }
@@ -141,8 +174,6 @@ b{
     background: #e9e1e1;
     margin: 0 1%;
     width: 100%;
-    height: auto;
-    max-width: 100%;
 }
 
 .photo{
@@ -169,3 +200,7 @@ b{
     }
 }
 
+main{
+    width: 80%;
+    margin: 0 auto;
+}
