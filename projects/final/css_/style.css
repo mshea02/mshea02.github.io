@@ -60,10 +60,16 @@ p,
     padding: 1.4%;
 }
 
+
+
 .maintext,
 .maintexttwo{
     width: 94%;
     margin: 0 auto;
+}
+
+.mainphoto{
+    margin-bottom: 30%;
 }
 
 h2{
@@ -177,9 +183,8 @@ h1{
 }
 
 .photo{
-    margin: 0 1%;
-    width: 98%;
-    max-width: 100%;
+    width: 100%;
+    margin: 0 auto;
     height: auto;
     border: 1px solid #ffffff
 }
@@ -201,7 +206,7 @@ h1{
 }
 
 main{
-    width: 83%;
+    width: 85%;
     margin: 0 auto;
 }
 
