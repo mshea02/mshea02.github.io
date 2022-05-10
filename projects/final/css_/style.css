@@ -35,7 +35,7 @@ footer{
 
 header{
     padding: 5% 2%;
-    max-width: 1500px;
+    max-width: 1200px;
     margin: 0 auto;
     text-align: center;
 }
@@ -94,6 +94,7 @@ h1{
     width: 100%;
     padding: 0 5%;
     height: 300px;
+    margin: 0 auto;
 }
 
 
@@ -161,5 +162,11 @@ footer{
     header{
         width: 1200px;
         text-align: left;
+    }
+}
+
+@media (min-width: 800px){
+    header{
+        width: 100%;
     }
 }
