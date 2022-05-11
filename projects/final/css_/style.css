@@ -5,8 +5,6 @@ Colors:
 #7dffd4 = aquamarine
 */
 
-
-
 /*
 Fonts:
 font-family: 'Nunito Sans'
@@ -97,7 +95,6 @@ h1{
     margin: 0 auto;
 }
 
-
 /*TEXT*/
 
 a{
@@ -136,6 +133,8 @@ footer{
 .method{
     font-style: italic
 }
+
+/*MEDIA QUERY*/
 
 @media (max-width: 450px){
     h1{
