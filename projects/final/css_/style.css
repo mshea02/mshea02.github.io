@@ -16,7 +16,7 @@ font-family: 'Manrope'
 body{
     font-size: 17px;
     font-family: 'Nunito Sans';
-    background-color: #4b4747;
+    background-color: #383636;
     color:#ffffff
 }
 
@@ -111,15 +111,12 @@ a:hover{
 }
 
 b{
-    font-weight: 900;
     color: #7dffd4;
     font-size: 1.1em;
 }
 
 .intro{
     color:#ffffff;
-    font-weight: 600;
-    font-size: 1em;
 }
 
 /*FOOTER*/
