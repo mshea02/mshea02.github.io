@@ -1,0 +1,170 @@
+/*
+Colors:
+##383636 = Dark Gray
+#dd5e5e = light red
+#7dffd4 = aquamarine
+*/
+
+/*
+Fonts:
+font-family: 'Nunito Sans'
+font-family: 'Manrope'
+*/
+
+/*MAIN*/
+
+body{
+    font-size: 17px;
+    font-family: 'Nunito Sans';
+    background-color: #383636;
+    color:#ffffff
+}
+
+main{
+    margin: 0 auto;
+}
+
+section,
+footer{
+    margin: 0 auto;
+    padding: 5% 0;
+    width: 75%;
+}
+
+/* HEADER */
+
+header{
+    padding: 5% 2%;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h2{
+    font-size: 1em;
+}
+
+h1{
+    font-family: 'Manrope';
+    font-size: 3em;
+    font-weight: 200;
+    padding: 2% 0;
+    text-align: left;
+}
+
+.subhead{
+    background-color: #dd5e5e;
+    display: inline;
+    padding: 5px;
+    font-weight: 900;
+    font-size: .9em;
+}
+
+.mainphoto{
+    margin: 5% 0 25% 0;
+    padding: 0;
+}
+
+/* EMBEDED WORK*/
+
+.graphic{
+    padding: 2%;
+    background: #e9e1e1;
+    margin: 0 auto;
+    width: 85%;
+}
+
+.photo{
+    width: 100%;
+    margin: 0 auto;
+    height: auto;
+    border: 1px solid #ffffff
+}
+
+.caption{
+    font-size: .8em;
+    color: #f5eded;
+    font-family: 'Nunito Sans';
+    font-weight: 300;
+    text-align: center;
+    margin: 1% 15% 2% 15%;
+}
+
+.embed iframe{
+    width: 100%;
+    padding: 0 5%;
+    height: 325px;
+    margin: 0 auto;
+}
+
+/*TEXT*/
+
+a{
+    color: #f5f5f5;
+    text-decoration-color: #dd5e5e;
+    font-weight: 600;
+}
+
+a:hover{
+    background-color: #dd5e5e;
+    color: #ffffff;
+}
+
+b{
+    color: #7dffd4;
+    font-size: 1.1em;
+}
+
+.intro{
+    color:#ffffff;
+}
+
+/*FOOTER*/
+
+footer{
+    border-top: 1px solid gray
+}
+
+.copyright{
+    text-align: center;
+}
+
+.method{
+    font-style: italic
+}
+
+/*MEDIA QUERY*/
+
+@media (max-width: 450px){
+    h1{
+        font-size: 2em;
+    }
+
+    header{
+        padding: 10% 0;
+    }
+
+    .graphic,
+    section,
+    footer{
+        width: 100%;
+    }
+
+    .caption{
+        font-size: .9em;
+        margin: 1% 0 0 0;
+    }
+}
+
+@media (min-width: 990px){
+    header{
+        width: 1200px;
+        text-align: left;
+    }
+}
+
+@media (min-width: 800px){
+    header{
+        width: 100%;
+    }
+}
